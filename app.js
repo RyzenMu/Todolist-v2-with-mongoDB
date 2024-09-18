@@ -87,7 +87,7 @@ app.post("/delete", function (req, res) {
 			if (err) {
 				console.log(err);
 			} else {
-				console.log("Item successfully removed.");
+				console.log("Item successfully removed....");
 			}
 		});
 		res.redirect("/");
